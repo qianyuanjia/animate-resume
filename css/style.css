@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ol{
+	padding-left: 20px;
+}
+ul{
+	list-style: none;
+}
+body{
+	overflow: hidden;
+}
+#leftCode,
+#rightCode{
+	padding: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+#md{
+	padding: 15px;
+	line-height: 26px;
+}
+#md hr{
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
