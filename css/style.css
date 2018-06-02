@@ -13,8 +13,11 @@ body{
 }
 #leftCode,
 #rightCode{
-	padding: 15px;
+	padding: 20px;
 	box-sizing: border-box;
+}
+#leftCode{
+	font-family: Helvetica;
 }
 #rightCode{
 	padding: 10px 15px;
