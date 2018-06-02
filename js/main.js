@@ -172,6 +172,6 @@ function writeCode(codePlaceSelector,codeStr,css,callback,preCodeStr){
 			clearInterval(timer);
 			callback && callback();
 		}
-	},40);
+	},30);
 }
 
