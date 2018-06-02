@@ -43,7 +43,6 @@ html{
 	}
 }
 #taiji{
-	background: #D4D4D5;
 	width:100px;
 	height:50px;
 	position:absolute;
@@ -52,6 +51,7 @@ html{
 	left:0;
 	right:0;
 	margin:auto;
+	background: #D4D4D5;
 	border-radius:50%;
 	border-bottom:50px solid #949494;
 	opacity:0.3;
