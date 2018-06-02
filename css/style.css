@@ -14,8 +14,10 @@ body{
 #leftCode,
 #rightCode{
 	padding: 15px;
-	overflow: hidden;
 	box-sizing: border-box;
+}
+#rightCode{
+	padding: 10px 15px;
 }
 #md{
 	padding: 15px;
@@ -24,4 +26,14 @@ body{
 #md hr{
 	margin-bottom: 15px;
 	margin-top: 10px;
+}
+.box{
+ 	position:fixed;
+	left:40px;
+	top:0;
+	bottom:0;
+	margin:auto;	
+	width:40%;
+	height:90vh;
+	z-index: 0;
 }
