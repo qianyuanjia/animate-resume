@@ -221,7 +221,7 @@ function leftScroll(){
 	var contentHeight=oLeftCode.offsetHeight;
 	oScroll.style.height=pageHeight/contentHeight*pageHeight+'px';
 	oScroll.style.top=pageHeight-oScroll.offsetHeight+'px';
-	oLeftCode.style.marginTop=-oScroll.offsetTop/pageHeight*contentHeight+'px';
+	// oLeftCode.style.marginTop=-oScroll.offsetTop/pageHeight*contentHeight+'px';
 			
 	oScroll.onmousedown=function(ev){
 
@@ -242,6 +242,12 @@ function leftScroll(){
 	        	this.onmousemove=this.onmouseup=null;
 	     	}
 	   }
+	 }
+	 window.onresize=function(){
+	  	pageHeight=oWrap.offsetHeight;
+	 	oScroll.style.height=pageHeight/contentHeight*pageHeight+'px';
+	 	oScroll.style.top=pageHeight-oScroll.offsetHeight+'px';
+	 	oLeftCode.style.marginTop=-oScroll.offsetTop/pageHeight*contentHeight+'px';
 	 }
 }
 
